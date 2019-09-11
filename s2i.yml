@@ -1,0 +1,34 @@
+---
+docker_image_list_s2i:
+  - jboss-amq-6/amq63-openshift:latest
+  - jboss-datagrid-7/datagrid71-openshift:latest
+  - jboss-datagrid-7/datagrid71-client-openshift:latest
+  - jboss-datavirt-6/datavirt63-openshift:latest
+  - jboss-datavirt-6/datavirt63-driver-openshift:latest
+  - jboss-decisionserver-6/decisionserver64-openshift:latest
+  - jboss-processserver-6/processserver64-openshift:latest
+  - jboss-eap-6/eap64-openshift:latest
+  - jboss-eap-7/eap71-openshift:latest
+  - jboss-webserver-3/webserver31-tomcat7-openshift:latest
+  - jboss-webserver-3/webserver31-tomcat8-openshift:latest
+  - openshift3/jenkins-2-rhel7:latest
+  - openshift3/jenkins-agent-maven-35-rhel7:latest
+  - openshift3/jenkins-agent-nodejs-8-rhel7:latest
+  - openshift3/jenkins-slave-base-rhel7:latest
+  - openshift3/jenkins-slave-maven-rhel7:latest
+  - openshift3/jenkins-slave-nodejs-rhel7:latest
+  - redhat-openjdk-18/openjdk18-openshift:latest
+  - redhat-sso-7/sso70-openshift:latest
+  - redhat-sso-7/sso71-openshift:latest
+#  - redhat-sso-7/sso72-openshift:latest
+#  - redhat-sso-7/sso73-openshift:latest
+  - rhscl/mariadb-101-rhel7:latest
+  - rhscl/mongodb-32-rhel7:latest
+  - rhscl/mysql-57-rhel7:latest
+  - rhscl/nodejs-6-rhel7:latest
+  - rhscl/perl-524-rhel7:latest
+  - rhscl/php-56-rhel7:latest
+  - rhscl/postgresql-95-rhel7:latest
+  - rhscl/python-35-rhel7:latest
+  - rhscl/ruby-24-rhel7:latest
+
